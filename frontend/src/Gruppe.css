@@ -1,0 +1,114 @@
+
+.link-item {
+  display: block;
+  padding: 10px 15px;
+  color: black;
+  transition: 0.3s, color 0.3s;
+  text-align: right;
+}
+
+
+.links {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+
+.link-item:hover {
+  background: linear-gradient(to right, rgb(0, 0, 0), #efd68b);
+  color: #fff;
+}
+.separator {
+  width: 3px;
+  background-color: #979292;
+  height: 100%;
+}
+
+
+.main-title32 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  background-color: #e7d9ad;
+  border-radius: 50px;
+  text-align: right;
+  padding: 10px;
+  
+}
+
+
+.examsimg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+
+.examsimg {
+  width: 200px;
+}
+.main-title1{
+text-align: right;
+
+}
+
+@media (max-width: 768px) {
+
+  .links {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+
+  .link-item {
+    text-align: center;
+    padding: 12px 20px; 
+  }
+
+
+  .link-item:hover {
+    background: linear-gradient(to right, rgb(0, 0, 0), #efd68b);
+    color: #fff;
+    text-align: center;
+  }
+
+
+
+  .main-title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+ 
+  .examsimg-container {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+
+  .examsimg {
+    width: 120px;
+  }
+
+  .signbtn {
+    width: 100%; 
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+
+  .signbtn:hover {
+    width: 100%;
+    font-weight: bold;
+  }
+
+
+  .col-lg-3, .col-md-4, .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

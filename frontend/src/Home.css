@@ -1,0 +1,114 @@
+
+.home {
+  background-image: url('/public/Foto/home3.jpeg');
+  width: 100%;
+  background-size: cover;
+  padding: 20px;
+}
+
+.home-logo {
+  width: 250px; 
+  height: 200px; 
+  border-radius: 50px;
+  margin: 70px auto 0 auto; 
+}
+
+.custom-paragraph {
+  font-size: 1.25rem; 
+  color: black;
+}
+
+.bold-span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f2d04b;
+}
+
+.home h2 {
+  margin: 90px 70px 0 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.home p {
+  margin: 0px 70px 0 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.about {
+  height: auto; 
+  background-image: url('/public/Foto/about.jpeg');
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  padding: 20px 10px;
+}
+
+.about-header {
+  font-size: 1.75rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  gap: 20px;
+  padding: 20px;
+}
+
+.about-cards .card {
+  background-color: #e7d9ad;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  color: #ac9364;
+  width: 200px; 
+  height: 250px;
+}
+
+
+@media (max-width: 768px) {
+  .home h2 {
+    font-size: 1.75rem;
+    margin: 20px 0;
+  }
+
+  .home p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .home-logo {
+    width: 200px; 
+    height: 150px;
+    margin: 20px auto;
+  }
+
+  .about-cards {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .about-cards .card {
+    width: 90%;
+    height: auto; 
+    padding: 15px;
+  }
+
+  .about-header {
+    font-size: 1.5rem;
+    margin-top:75px;
+  }
+  
+}
+
+
